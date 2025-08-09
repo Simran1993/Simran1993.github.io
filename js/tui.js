@@ -362,7 +362,6 @@ async function displayContent() {
     outerContainerElement.appendChild(innerContainerElement);
     MAIN_CONTENT_SECTION.appendChild(outerContainerElement);
 
-    await displayRandomBibleVerse(innerContainerElement);
   }
 }
 
